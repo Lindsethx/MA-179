@@ -34,15 +34,15 @@ Disse operasjonene brukes for å løse systemer og bevare løsningene:
 
 1. **Bytte to rader**
 
-R₁ ↔ R₂
+    R₁ ↔ R₂
 
 2. **Multiplisere en rad med en ikke-null konstant**
 
-cR₁ → R₁ (c ≠ 0)
+    cR₁ → R₁ (c ≠ 0)
 
 3. **Legge et multiplum av én rad til en annen**
 
-R₂ + cR₁ → R₂
+    R₂ + cR₁ → R₂
 
 Disse endrer ikke løsningen til systemet.
 
@@ -56,7 +56,9 @@ Det **ledende elementet** i en rad er:
 Eksempel:
 
 [ 0 0 3 1 ]
+
 ↑
+
 ledende element
 
 ---
@@ -100,7 +102,9 @@ En **pivot** er:
 Eksempel:
 
 [ 1 3 0 ]
+
 ↑
+
 pivot
 
 
@@ -156,4 +160,4 @@ Ikke-pivot-søyle: 3
 | Pivot-posisjon | Plasseringen til pivoten |
 | Pivot-søyle | Kolonne som inneholder pivot |
 
----
+----
