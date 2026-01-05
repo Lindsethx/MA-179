@@ -21,6 +21,7 @@ x − y = 1
 Systemet kan skrives som en **utvidet matrise**:
 
 [ 2 1 | 5 ]
+
 [ 1 -1 | 1 ]
 
 
@@ -74,7 +75,9 @@ En matrise er på **trappeform** hvis:
 Eksempel:
 
 [ 1 2 0 | 3 ]
+
 [ 0 1 -1 | 4 ]
+
 [ 0 0 1 | 2 ]
 
 ---
@@ -119,6 +122,7 @@ En **pivot-posisjon** er:
 Eksempel:
 
 [ 1 2 0 ]
+
 [ 0 1 3 ]
 
 Pivot-posisjoner:
@@ -139,6 +143,7 @@ Ikke-pivot-søyler:
 Eksempel:
 
 [ 1 0 4 ]
+
 [ 0 1 2 ]
 
 
@@ -160,4 +165,4 @@ Ikke-pivot-søyle: 3
 | Pivot-posisjon | Plasseringen til pivoten |
 | Pivot-søyle | Kolonne som inneholder pivot |
 
-----
+---
