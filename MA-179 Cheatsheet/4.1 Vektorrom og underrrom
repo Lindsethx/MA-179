@@ -1,0 +1,43 @@
+# 4.1 Vektorrom og underrrom – Cheat Sheet
+
+## Underrrom-test (ALL må holde)
+Et sett W er et underrrom hvis:
+1. 0 ∈ W
+2. Lukket under addisjon
+3. Lukket under skalarmultiplikasjon
+
+---
+
+## Effektiv test (eksamen)
+W = Span{v₁, v₂, ...} ⇒ alltid underrrom
+
+---
+
+## Vanlige feil
+- Begrensninger som x ≥ 0 → IKKE underrrom
+- Sirkler, kurver → IKKE underrrom
+- Konstante ledd (f.eks. +1) → IKKE underrrom
+
+---
+
+## Typiske former
+| Form | Underrrom? |
+|----|-----------|
+| Ax = 0 | Ja |
+| Ax = b (b≠0) | Nei |
+| Alle polynomer ≤ grad n | Ja |
+| p(0)=0 | Ja |
+
+---
+
+## Span
+- Span{v₁, v₂} = alle lineærkombinasjoner
+- v ∈ Span ⇔ Av = b er konsistent
+
+---
+
+## Aksiomer (brukes i bevis)
+- u + 0 = u
+- c(u + v) = cu + cv
+- c0 = 0
+- 0u = 0

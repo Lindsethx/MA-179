@@ -1,0 +1,36 @@
+# 1.9 Matrisen til en lineær transformasjon – Cheat Sheet
+
+## Standardprosedyre
+For T: ℝⁿ → ℝᵐ
+1. Finn T(e₁), T(e₂), ..., T(eₙ)
+2. Sett disse som kolonner i A
+
+A = [ T(e₁) T(e₂) ... T(eₙ) ]
+
+---
+
+## Sammensatte transformasjoner
+T₂ ∘ T₁ ⇒ A = A₂ A₁
+(Rekkefølge er viktig!)
+
+---
+
+## Vanlige transformasjoner
+| Transformasjon | Matrise |
+|---------------|--------|
+| Refleksjon x-akse | [[1,0],[0,-1]] |
+| Refleksjon y-akse | [[-1,0],[0,1]] |
+| Rotasjon θ | [[cosθ,-sinθ],[sinθ,cosθ]] |
+
+---
+
+## Viktige påstander (T/F)
+- T bestemt av T(eᵢ) → TRUE
+- Alle T er matriser → FALSE
+- Sammensetning alltid lineær → TRUE
+
+---
+
+## Eksamentips
+- Tegn e₁ og e₂ først
+- Avles kolonnene geometrisk

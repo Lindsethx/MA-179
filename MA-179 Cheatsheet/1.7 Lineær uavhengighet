@@ -1,0 +1,43 @@
+# 1.7 Lineær uavhengighet – Cheat Sheet
+
+## Definisjon
+Vektorene v₁, v₂, ..., vₙ er lineært uavhengige hvis:
+c₁v₁ + c₂v₂ + ... + cₙvₙ = 0
+⇒ c₁ = c₂ = ... = cₙ = 0
+
+Hvis det finnes en ikke-triviell løsning → lineært avhengige.
+
+---
+
+## Metode 1: Inspeksjon
+- En vektor = 0 → avhengig
+- To vektorer er multipler → avhengige
+- Flere vektorer enn dimensjon → avhengige
+
+---
+
+## Metode 2: Matrise
+1. Sett vektorene som kolonner i en matrise
+2. Radreduser til REF / RREF
+3. Pivot i hver kolonne → lineært uavhengige
+4. Fri variabel → lineært avhengige
+
+---
+
+## Konsistens-test
+Ligningen Av = 0:
+- Kun triviell løsning → LI
+- Uendelig mange løsninger → LD
+
+---
+
+## Viktige fakta
+- Pivot-søyle ⇔ ledende variabel
+- Ikke-pivot-søyle ⇔ fri variabel
+- LI ⇔ ingen frie variabler
+
+---
+
+## Hurtigregler (eksamen)
+- n vektorer i ℝⁿ → sjekk determinant / pivoter
+- Flere vektorer enn rader → alltid avhengige

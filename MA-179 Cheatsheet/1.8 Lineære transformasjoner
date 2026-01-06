@@ -1,0 +1,42 @@
+# 1.8 Lineære transformasjoner – Cheat Sheet
+
+## Definisjon
+T: ℝⁿ → ℝᵐ er lineær hvis:
+1. T(u + v) = T(u) + T(v)
+2. T(cu) = cT(u)
+
+---
+
+## Standardmatrise
+T(x) = Ax
+
+A = [ T(e₁) T(e₂) ... T(eₙ) ]
+
+---
+
+## Finne T(x)
+1. Skriv x som lineærkombinasjon av standardbasen
+2. Bruk linearitet:
+   T(x) = x₁T(e₁) + x₂T(e₂)
+
+---
+
+## Geometrisk tolkning
+| Matrise | Effekt |
+|------|------|
+| Diagonal | Skalering |
+| [[0,-1],[1,0]] | Rotasjon |
+| Shear | Forskyvning |
+| Nullrad | Kollaps av dimensjon |
+
+---
+
+## Én-til-én og onto
+- Én-til-én ⇔ Ax = 0 har kun triviell løsning
+- Onto ⇔ hver rad har pivot
+
+---
+
+## Hurtigregler
+- Flere rader enn kolonner → ikke én-til-én
+- Færre rader enn kolonner → ikke onto
